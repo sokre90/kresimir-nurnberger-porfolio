@@ -1,0 +1,70 @@
+html {
+	box-sizing: box-border;
+}
+body {
+	background-color: #8FA590;
+}
+
+.top-section h1 {
+	text-align: center;
+	font-size: 5em;
+	text-shadow: 2px 2px 2px lightgrey;
+}
+
+.screenshots {
+	box-sizing: box-border;
+	max-width: 50%;
+	max-height: 30%;
+}
+.nytimes {
+	float: left;
+	border: 2px solid black;
+}
+
+/*@keyframes karma-scshots {
+	from {src="images/karma-screenshot.png"}
+	to {src="images/karma-screenshot2.png"}
+			###background color animation
+}*/
+
+.karma1  {
+	float: right;
+	border: 2px solid black;
+	position: relative;
+    right: -667px;
+    top: -386px;
+    height: 382px;
+    width: 657px;
+    /*animation-name: karma-scshots;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;*/
+}
+
+.karma2 {
+	float: right;
+	position: relative;
+    top: -770px;
+    right: -665px;
+    width: 657px;
+    height: 382px;
+    
+}
+
+/*#animation {
+	position: relative;
+	height: 281px;
+	width: 450px;
+	margin: 0 auto;	
+}
+
+#animation img {
+	position: relative;
+	left: 0;
+	-webkit-transition: opacity 1s ease-in-out;
+	-moz-transition: opacity 1s ease-in-out;
+	-o-transition: opacity 1s ease-in-out;
+	transition: opacity 1s ease-in-out;
+}
+#animation img.karma2{
+	opacity: 0;
+}*/
