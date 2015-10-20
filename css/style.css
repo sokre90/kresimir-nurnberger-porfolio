@@ -136,15 +136,16 @@ body {
 .previous-pg a {
 	text-decoration: none;
 	color: inherit;
-	text-align: center;
-	text-shadow: 2px 2px 1px lightgrey;
-	font-size: 15px;
+/*	text-align: center;
+*//*	text-shadow: 2px 2px 1px lightgrey;
+*/	font-size: 15px;
 	font-weight: bold;
 
 }
 
 .previous-pg a:hover {
-	font-size: 18px;
-	text-shadow: 5px 5px 2px lightgrey;
-	line-height: 0;
+	font-size: 17px;
+	color: lightgrey;
+/*	text-shadow: 5px 5px 2px lightgrey;
+	line-height: 0;*/
 }
