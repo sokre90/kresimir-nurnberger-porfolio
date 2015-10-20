@@ -11,23 +11,33 @@ body {
 	text-shadow: 2px 2px 2px lightgrey;
 }
 
-.screenshots {
+.scshots {
 	position: relative;
 	box-sizing: box-border;
-	max-width: 50%;
-	max-height: 30%;
+	/*max-width: 90%;
+	max-height: 60%;*/
 	background-color: grey;
+	margin: 0 auto;
 }
 
 .projects {
-	background-color: blue;
+	position: relative;
+	width: 1200px;
+	height: 600px;
+	background-color: orange;
 	margin: 0 auto;
+
 }
 
 .nytimes {
 	float: left;
-/*	border: 2px solid black;*/
-	box-shadow: 10px 10px 10px #888888;
+/*	box-shadow: 5px 0 5px lightgrey;
+*/	background-color: white;
+	width: 500px;
+	height: 350px;
+	position: absolute;
+	margin: 20px 0 0 20px;
+
 }
 
 /*@keyframes karma-scshots {
@@ -36,45 +46,34 @@ body {
 			###background color animation
 }*/
 
-.karma1  {
+.karma1 {
 	float: right;
-/*	border: 2px solid black;
-*/	position: relative;
-    right: -667px;
-    top: -386px;
-    height: 382px;
-    width: 657px;
-    box-shadow: 5px 5px 5px lightgrey;
+/*    box-shadow: 5px 0 5px lightgrey;
+*/	background-color: white;
     /*animation-name: karma-scshots;
     animation-duration: 3s;
     animation-iteration-count: infinite;*/
 }
 
 .karma2 {
-	float: right;
-    position: relative;
-    top: -810px;
-    right: -736px;
-    width: 729px;
-    height: 425px;
+/*	float: right;
+*/	background-color: white;
+
+   
     
 }
 
-/*#animation {
-	position: relative;
-	height: 281px;
-	width: 450px;
-	margin: 0 auto;	
-}
-
-#animation img {
-	position: relative;
-	left: 0;
+#animation {
+	position: absolute;
+	margin: 20px 0 0 679px;
+	width: 500px;
+	height: 350px;	
 	-webkit-transition: opacity 1s ease-in-out;
 	-moz-transition: opacity 1s ease-in-out;
 	-o-transition: opacity 1s ease-in-out;
 	transition: opacity 1s ease-in-out;
 }
+
 #animation img.karma2{
 	opacity: 0;
-}*/
+}
