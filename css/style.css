@@ -40,18 +40,29 @@ body {
 
 }
 
-/*@keyframes karma-scshots {
-	from {src="images/karma-screenshot.png"}
-	to {src="images/karma-screenshot2.png"}
-			###background color animation
+@keyframes karma-scshots {
+	/* ### background color animation ###
+	from {src="images/example.file"}
+	to {src="images/example2.file"}*/
+			
+0% {
+	opacity: 1;
 }
-*/
+45% {
+	opacity: 1;
+}
+55% {
+	opacity: 0;
+}
+100% {
+	opacity: 0;
+}
+}
+
 .karma1 {
 	float: right;
 	background-color: white;
-    /*animation-name: karma-scshots;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;*/
+    
 }
 
 .karma2 {
@@ -65,15 +76,25 @@ body {
 	margin: 60px 0 0 640px;
 	width: 500px;
 	height: 350px;	
+	/*	### image alternate on hover ###
 	-webkit-transition: opacity 1s ease-in-out;
 	-moz-transition: opacity 1s ease-in-out;
 	-o-transition: opacity 1s ease-in-out;
-	transition: opacity 1s ease-in-out;
+	transition: opacity 1s ease-in-out;*/
 }
 
+#animation img.karma2 {
+	animation-name: karma-scshots;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    animation-direction: alternate;
+}
+
+/*	### image alternate on hover ###
 #animation img.karma2:hover {
 	opacity: 0;
-}
+}*/
 
 .scshots hr {
 	color: lightgrey;
