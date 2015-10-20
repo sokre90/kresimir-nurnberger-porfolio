@@ -15,8 +15,7 @@ body {
 .scshots {
 	position: relative;
 	box-sizing: box-border;
-	/*max-width: 90%;
-	max-height: 60%;*/
+	height: 500px;
 	background-color: grey;
 	margin: 0 40px 0 40px;
 }
@@ -24,7 +23,7 @@ body {
 .projects {
 	position: relative;
 	width: 1200px;
-	height: 600px;
+	height: 500px;
 	background-color: inherit;
 	margin: 0 auto;
 
@@ -45,26 +44,23 @@ body {
 	from {src="images/karma-screenshot.png"}
 	to {src="images/karma-screenshot2.png"}
 			###background color animation
-}*/
-
+}
+*/
 .karma1 {
 	float: right;
-/*    box-shadow: 5px 0 5px lightgrey;
-*/	background-color: white;
+	background-color: white;
     /*animation-name: karma-scshots;
     animation-duration: 3s;
     animation-iteration-count: infinite;*/
 }
 
 .karma2 {
-/*	float: right;
-*/	background-color: white;
 
-   
-    
+	background-color: white;
+	position: absolute;    
 }
 
-#animation a {
+#animation {
 	position: absolute;
 	margin: 60px 0 0 640px;
 	width: 500px;
@@ -75,14 +71,16 @@ body {
 	transition: opacity 1s ease-in-out;
 }
 
-#animation img.karma2{
+#animation img.karma2:hover {
 	opacity: 0;
 }
 
-hr {
-	color: orange;
-	position: relative;
-    top: -465px;
+.scshots hr {
+	color: lightgrey;
+	position: absolute;
+    margin: 150px 600px 150px 600px;
+    width: 0;
+    size: 200px;
 }
 
 .headers {
@@ -110,5 +108,20 @@ hr {
 
 .headers a:hover {
 	font-size: 18px;
-	text-shadow: 3px 3px 3px #f15a29;
+	text-shadow: 5px 5px 2px #f15a29;
+	line-height: 0;
+}
+
+.previous-pg a {
+	text-decoration: none;
+	color: inherit;
+	text-align: center;
+	text-shadow: 2px 2px 1px lightgrey;
+
+}
+
+.previous-pg a:hover {
+	font-size: 18px;
+	text-shadow: 5px 5px 2px lightgrey;
+	line-height: 0;
 }
