@@ -3,6 +3,7 @@ html {
 }
 body {
 	background-color: #8FA590;
+	font-family: 'Roboto', sans-serif; 
 }
 
 .top-section h1 {
@@ -17,14 +18,14 @@ body {
 	/*max-width: 90%;
 	max-height: 60%;*/
 	background-color: grey;
-	margin: 0 auto;
+	margin: 0 40px 0 40px;
 }
 
 .projects {
 	position: relative;
 	width: 1200px;
 	height: 600px;
-	background-color: orange;
+	background-color: inherit;
 	margin: 0 auto;
 
 }
@@ -36,7 +37,7 @@ body {
 	width: 500px;
 	height: 350px;
 	position: absolute;
-	margin: 20px 0 0 20px;
+	margin: 60px 0 0 60px;
 
 }
 
@@ -63,9 +64,9 @@ body {
     
 }
 
-#animation {
+#animation a {
 	position: absolute;
-	margin: 20px 0 0 679px;
+	margin: 60px 0 0 640px;
 	width: 500px;
 	height: 350px;	
 	-webkit-transition: opacity 1s ease-in-out;
@@ -76,4 +77,38 @@ body {
 
 #animation img.karma2{
 	opacity: 0;
+}
+
+hr {
+	color: orange;
+	position: relative;
+    top: -465px;
+}
+
+.headers {
+	position: absolute;
+    height: 50px;
+    width: 1000px;
+    margin: 5px 100px 5px 100px;
+    background-color: inherit;
+    text-shadow: 1px 1px 1px #f15a29;
+}
+.text {
+	float: left;
+	margin-left: 123px;
+}
+
+.text2 {
+	float: right;
+	margin-right: 123px;
+}
+
+.headers a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.headers a:hover {
+	font-size: 18px;
+	text-shadow: 3px 3px 3px #f15a29;
 }
