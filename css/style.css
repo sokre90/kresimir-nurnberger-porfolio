@@ -15,7 +15,7 @@ body {
 .scshots {
 	position: relative;
 	box-sizing: box-border;
-	height: 500px;
+	height: 900px;
 	background-color: grey;
 	margin: 0 40px 0 40px;
 }
@@ -23,7 +23,7 @@ body {
 .projects {
 	position: relative;
 	width: 1200px;
-	height: 500px;
+	height: 900px;
 	background-color: inherit;
 	margin: 0 auto;
 
@@ -95,6 +95,11 @@ body {
 #animation img.karma2:hover {
 	opacity: 0;
 }*/
+.sf {
+	position: relative;
+	left: 18em;
+    bottom: -30em;
+}
 
 .scshots hr {
 	color: lightgrey;
@@ -121,16 +126,20 @@ body {
 	float: right;
 	margin-right: 123px;
 }
+.text-sf {
+	text-align: center;
+	position: relative;
+    left: -1em;
+    bottom: -26em;
+  }
 
 .headers a {
-	text-decoration: none;
+	text-decoration: underline;
 	color: inherit;
 }
 
 .headers a:hover {
-	font-size: 18px;
-	text-shadow: 5px 5px 2px #f15a29;
-	line-height: 0;
+	text-decoration: none;
 }
 
 .previous-pg a {
@@ -140,7 +149,9 @@ body {
 *//*	text-shadow: 2px 2px 1px lightgrey;
 */	font-size: 15px;
 	font-weight: bold;
-
+}
+.previous-pg > p {
+	text-align: center;
 }
 
 .previous-pg a:hover {
